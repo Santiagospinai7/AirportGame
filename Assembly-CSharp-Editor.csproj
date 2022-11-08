@@ -56,7 +56,6 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\Editor\ChatEditor.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -919,10 +918,6 @@
       <Project>{DB6E6CEC-52CB-45D4-3996-48278FC410C2}</Project>
       <Name>PhotonChat</Name>
     </ProjectReference>
-    <ProjectReference Include="MicAmplifierEditor.Editor.csproj">
-      <Project>{85747F62-5E4A-58AE-B981-CB24493311A1}</Project>
-      <Name>MicAmplifierEditor.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
       <Project>{60BCED78-785E-6215-C73C-BD9F16B3DCE8}</Project>
       <Name>PhotonUnityNetworking.Editor</Name>
@@ -939,25 +934,13 @@
       <Project>{93470F1E-DFEE-3C01-B2D9-D6C12C606B72}</Project>
       <Name>PhotonUnityNetworking</Name>
     </ProjectReference>
-    <ProjectReference Include="PhotonVoice.Utilities.Editor.csproj">
-      <Project>{378B45F4-8C91-77B5-1C79-C8D69BFE76D0}</Project>
-      <Name>PhotonVoice.Utilities.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="PunDemos.DemoSlotcarEditor.csproj">
       <Project>{7A995328-6066-F361-E450-2E62448DEE1E}</Project>
       <Name>PunDemos.DemoSlotcarEditor</Name>
     </ProjectReference>
-    <ProjectReference Include="PhotonVoice.PUN.csproj">
-      <Project>{78A84F07-3D9A-4245-DC3A-5603BC7BC813}</Project>
-      <Name>PhotonVoice.PUN</Name>
-    </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
       <Project>{1FA4F5EA-1C99-90B6-B03D-DFCED77EB664}</Project>
       <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonVoice.API.csproj">
-      <Project>{C3ED5D23-2A87-A991-D9DB-918FAC267A0E}</Project>
-      <Name>PhotonVoice.API</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonRealtime.csproj">
       <Project>{3204039C-E025-E266-D2B6-A91E52492796}</Project>
@@ -967,21 +950,9 @@
       <Project>{55A44430-4A7E-D0D8-A7A5-E550535AC9F2}</Project>
       <Name>PhotonUnityNetworking.Utilities</Name>
     </ProjectReference>
-    <ProjectReference Include="PhotonVoice.csproj">
-      <Project>{AE8CDCD9-6AC6-6301-5ED3-8F659CB563BB}</Project>
-      <Name>PhotonVoice</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonVoice.Editor.csproj">
-      <Project>{99CD09AF-3A1D-D1F1-90ED-E71608EB4305}</Project>
-      <Name>PhotonVoice.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Demos.csproj">
       <Project>{EB647A0F-FC1F-E629-9491-B830C7313731}</Project>
       <Name>PhotonUnityNetworking.Demos</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonVoice.PUN.Editor.csproj">
-      <Project>{95A60BD0-AFE0-8B46-A1D5-3B9A54294DA6}</Project>
-      <Name>PhotonVoice.PUN.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

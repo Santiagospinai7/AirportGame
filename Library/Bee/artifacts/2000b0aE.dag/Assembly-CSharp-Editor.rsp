@@ -344,7 +344,6 @@
 -r:"Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/Cinemachine.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/com.unity.cinemachine.editor.ref.dll"
--r:"Library/Bee/artifacts/2000b0aE.dag/MicAmplifierEditor.Editor.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/PhotonChat.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/PhotonRealtime.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/PhotonUnityNetworking.Demos.ref.dll"
@@ -353,12 +352,6 @@
 -r:"Library/Bee/artifacts/2000b0aE.dag/PhotonUnityNetworking.Utilities.Culling.Editor.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/PhotonUnityNetworking.Utilities.ref.dll"
--r:"Library/Bee/artifacts/2000b0aE.dag/PhotonVoice.API.ref.dll"
--r:"Library/Bee/artifacts/2000b0aE.dag/PhotonVoice.Editor.ref.dll"
--r:"Library/Bee/artifacts/2000b0aE.dag/PhotonVoice.PUN.Editor.ref.dll"
--r:"Library/Bee/artifacts/2000b0aE.dag/PhotonVoice.PUN.ref.dll"
--r:"Library/Bee/artifacts/2000b0aE.dag/PhotonVoice.ref.dll"
--r:"Library/Bee/artifacts/2000b0aE.dag/PhotonVoice.Utilities.Editor.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/PPv2URPConverters.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/PunDemos.DemoHubEditor.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/PunDemos.DemoSlotcarEditor.ref.dll"
@@ -408,7 +401,6 @@
 -r:"Library/Bee/artifacts/2000b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Photon/PhotonChat/Demos/DemoChat/Editor/ChatEditor.cs"
-"Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs"
 -langversion:9.0
 
 /deterministic

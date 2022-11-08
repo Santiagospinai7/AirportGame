@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityStandardAssets.CrossPlatformInput;
+//using UnityStandardAssets.CrossPlatformInput;
 
 public class PhotonPlayerController : MonoBehaviour
 {
@@ -25,7 +25,7 @@ public class PhotonPlayerController : MonoBehaviour
     void FixedUpdate()
     {
 
-        pController.MovePlayer(CrossPlatformInputManager.GetAxis("Vertical"), CrossPlatformInputManager.GetAxis("Horizontal"));
+        pController.MovePlayer(Input.GetAxis("Vertical"), Input.GetAxis("Horizontal"));
 
         Debug.DrawLine(transform.position, transform.position + new Vector3(0, -0.01f, 0), Color.blue);
 
